@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.details {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: gray;
+  /* display: none; */
+}
+
+.details img{
+  width: 40%;
+}
+
+.ep{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: gray;
+  /* z-index: 50; */
+  /* font-size: 10px; */
+  column-count: 3;
+}
+
+.de{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: gray;
+  z-index: 50;
+  /* font-size: 10px; */
+  /* column-count: 3; */
+}

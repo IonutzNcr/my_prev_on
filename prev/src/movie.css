@@ -1,0 +1,125 @@
+/* Movie.css */
+.movie-list {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .series {
+    width:25%;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .series:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .series p {
+    margin: 5px 0;
+  }
+  
+  .series img {
+    max-width: 200px; 
+    height: auto;
+  }
+  
+  .details {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height:300px;
+    overflow: scroll;
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+  }
+  
+  .details img {
+    max-width: 40%;
+   height: auto;
+    margin-top: 10px;
+  }
+
+  .detail_description{
+    height:200px;
+    overflow: scroll;
+  }
+
+  .full_x{
+    width:100% !important;
+    display:flex;
+    justify-content: end;
+  }
+
+  .details div {
+    width: 50%;
+  }
+  
+  .details_title{
+    
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .de {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ep {
+    margin-top: 20px;
+  }
+  
+  .ep p {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ep p:hover {
+    background-color: #e0e0e0;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 5px;
+  }
+  

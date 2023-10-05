@@ -1,0 +1,35 @@
+/* Auth.css */
+.auth-container {
+    text-align: center;
+   
+  }
+  
+  .auth-button {
+    background-color: #007bff; /* Set the background color for the auth button */
+    color: #fff; /* Set the text color for the button */
+    border: none;
+    padding: 10px 20px; /* Add padding as needed */
+    font-size: 18px; /* Set the font size for the button */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+    font-weight: 900;
+  }
+  
+  .auth-button:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+  }
+  
+  .disconnect-button {
+    background-color: #ff0000; /* Set the background color for the disconnect button */
+    color: #fff; /* Set the text color for the button */
+    border: none;
+    padding: 10px 20px; /* Add padding as needed */
+    font-size: 18px; /* Set the font size for the button */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  .disconnect-button:hover {
+    background-color: #cc0000; /* Change the background color on hover */
+  }
+  
